@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.back{
+    float: left;
+    padding: 2%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+    width: 20pt;
+    height:20pt;
+}
+.icon_back{
+    width: 20pt;
+}
+.logo{
+    width: 50px;
+    float:right;
+    padding-top: 2%;
+}
+.title{
+    text-align: left;
+    font-size: 25px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    width: 20pt;
+    height: 10pt;
+    float: left;
+}
+.cabecera{
+    background: lightblue;
+    height: 60pt;
+}
+.imagen{
+    background: lightblue;
+    height: auto;
+    padding-left: 45%;
+    padding-top: 5%;
+}
+.imagen_central{
+    width: 20%;
+    margin: 0 auto;
+
+}
+.text_title{
+    text-align: center;
+    font-size:20pt;
+    background: lightblue;
+}
+.text_title_sub{
+    text-align: center;
+    font-size:10pt;
+    background: lightblue;
+}
+@media(min-width: 1024px){
+    .text_title{
+        font-size: 25pt;
+        background: lightblue;
+    }.text_title_sub{
+        text-align: center;
+        font-size:15pt;
+        background: lightblue;
+    }
+}
+.contenedor{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.beneficios{
+    background: lightblue;
+    padding-bottom: 70pt;
+}
+@media(min-width: 1024px){
+    .beneficios{
+        padding-bottom: 50pt;
+    }
+}
+.boton_pedidoya{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border: 0.5%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 9px;
+    width: 60%;
+}
+.boton_uber_eats{
+    background: black;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: 0.5%;
+    padding-left: 2%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 9px;
+    width: 60%;
+    color: white;
+}
+.icon_promocion{
+    height: 40pt;
+    float: left;
+}
+
+.text_for_promocion{
+    padding-top: 4%;
+    font-size: 10pt;
+}
+@media(min-width: 1024px){
+    .text_for_promocion{
+        padding-top: 2%;
+        font-size: 15pt;
+    }
+}
+
+
+.line{
+    float: right;
+    width: 100%;
+    height: 7px;
+    background: black;
+    opacity: 50%;
+}
+
+.title_punto_verde{
+    background-color: lightblue;
+    text-align: center;
+    width: 100%;
+    font-size: 20pt;}
+
+
+.home{
+    background: rgb(122, 169, 185);
+    width: 50%;
+    height: 35pt;
+    float: left;
+    text-align: center;
+    padding-top: 1%;
+}
+.pie{
+    clear: both;
+}
+.pie_icons{
+    display: flex;
+    margin: 0 auto;
+    width: 20px;
+    background: rgb(122, 169, 185);
+}

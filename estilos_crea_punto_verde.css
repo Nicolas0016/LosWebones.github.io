@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    width: 50px;
+    float:right;
+    padding-top: 2%;
+}
+.title{
+    text-align: left;
+    font-size: 25px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    width: 20pt;
+    height: 10pt;
+}
+.cabecera{
+    background: lightblue;
+    height: 80pt;
+}
+
+.line{
+    float: right;
+    width: 100%;
+    height: 7px;
+    background: black;
+    opacity: 50%;
+}
+
+.title_punto_verde{
+    background-color: lightblue;
+    text-align: center;
+    width: 100%;
+    font-size: 20pt;
+}
+* {box-sizing: border-box}
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: lightblue;
+  padding: 20px 0 30px 0;
+}
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; 
+}
+.casa{
+    width: 68%;
+}
+.nro{
+    float: right;
+    width: 28%;
+}
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+input[type=submit] {
+  background-color: rgb(122, 169, 185);
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(55, 117, 138);
+}
+.col {
+  width: 70%;
+  margin: 0 auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+.pie_icons{
+    display: flex;
+    margin: 0 auto;
+    width: 20px;
+    background: rgb(122, 169, 185);
+}
+.home{
+    background: rgb(122, 169, 185);
+    width: 50%;
+    height: 35pt;
+    float: left;
+    text-align: center;
+    padding-top: 1%;
+}
+.pie{
+    clear: both;
+}
+.back{
+    float: left;
+    padding: 2%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+    width: 20pt;
+    height:20pt;
+    float: left;
+}
+.icon_back{
+    width: 20pt;
+}

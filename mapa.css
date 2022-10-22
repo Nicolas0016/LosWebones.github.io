@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hola{
+    background: red;
+    position: fixed;
+    float: left;
+}
+#map { 
+    height: 40pc;
+    position: relative;
+}
+@media(min-width: 1024px){
+    #map{height: 31pc;}
+}
+.text_user{
+    padding-left: 5%;
+    font-size: 15pt;
+}
+
+.line{
+    float: right;
+    width: 100%;
+    height: 7px;
+    background: black;
+    opacity: 50%;
+}
+
+.title_punto_verde{
+    background-color: lightblue;
+    text-align: center;
+    width: 100%;
+    font-size: 20pt;}
+
+.home{
+    background: rgb(122, 169, 185);
+    width: 50%;
+    height: 35pt;
+    float: left;
+    text-align: center;
+    padding-top: 1%;
+}
+.pie{
+    clear: both;
+}
+.pie_icons{
+    display: flex;
+    margin: 0 auto;
+    border-radius: 30%;
+    width: 30px;
+    background: rgb(122, 169, 185);
+}

@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.logo{
+    padding-top: 2%;
+    width: 50px;
+    float:right
+}
+.title{
+    text-align: left;
+    font-size: 25px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    position: fixed;
+}
+.cabecera{
+    background: lightblue;
+    height: 80pt;
+    width: 100%;
+}
+
+.number_phone{
+    background: lightblue;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+input[type="text" i] {
+    color: #000;
+    padding: 1px 2px;
+    background: rgb(122, 169, 185);
+    margin: 0 auto;
+    height: 10pt;
+	padding:3px 10px;
+	border-radius:90px;
+	display:inline-block;
+    border-color: rgb(122, 169, 185);
+
+}
+.info{
+    background: lightblue;
+    width: 100%;
+    height: 270pt;
+}
+
+.boton{
+    width: 150px;
+    height: 150px;
+    float:left;
+    border-radius: 9px;
+    background: rgb(122, 169, 185);
+    position: relative;
+    margin: 0 auto;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+.imagenes_de_la_info{
+    width: 60%;
+    margin: 0 auto;
+    background: rgb(122, 169, 185);
+}
+.imagenes_de_info{
+    padding-top: 2%;
+    width: 100%;
+
+    background: rgb(122, 169, 185);
+}
+.imagenes_la_info{
+    width: 50%;
+    background: rgb(122, 169, 185);
+}
+.text{
+    background: rgb(122,169,185);
+}
+.line{
+    float: right;
+    width: 100%;
+    height: 7px;
+    background: black;
+    opacity: 50%;
+}
+.pie_icons{
+    display: flex;
+    margin: 0 auto;
+    width: 20px;
+    background: rgb(122, 169, 185);
+}
+.home{
+    background: rgb(122, 169, 185);
+    width: 50%;
+    height: 35pt;
+    float: left;
+    text-align: center;
+    padding-top: 1%;
+}
+.pie{
+    clear: both;
+
+    align-self: flex-end;
+}
+@media(min-width:980px){
+    .info{
+        height: 200pt;
+    }
+    .boton{
+        width: 180px;
+        height: 180px;
+    }
+}

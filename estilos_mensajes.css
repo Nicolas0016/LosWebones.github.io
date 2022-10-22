@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.back{
+    float: left;
+    padding: 2%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+    width: 20pt;
+    height:20pt;
+}
+.icon_back{
+    width: 20pt;
+}
+.logo{
+    width: 50px;
+    float:right;
+    padding-top: 2%;
+}
+.title{
+    text-align: left;
+    font-size: 25px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    width: 20pt;
+    height: 10pt;
+    float: left;
+}
+.cabecera{
+    background: lightblue;
+    height: 80pt;
+}
+.bandeja_de_mensajes{
+    background: lightblue;
+    padding: 3%;
+    height: 290pt;
+}
+.icon_user{
+    padding-left: 5%;
+    width: 20pt;
+    float: left;
+}
+.text_for_chat{
+    margin-left: 15%;
+    font-size: 20pt;
+}
+@media(min-width:1024px){
+.bandeja_de_mensajes{
+    background: lightblue;
+    padding: 3%;
+}
+.icon_user{
+    padding-left: 5%;
+    width: 20pt;
+    float: left;
+}
+.text_for_chat{
+    margin-left: 10%;
+    font-size: 20pt;
+}}
+.line_chat{
+    width: 95%;
+    height: 5px;
+    margin: 0 auto;
+    background: #000;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.text_user{
+    padding-left: 5%;
+    font-size: 15pt;
+}
+
+.line{
+    float: right;
+    width: 100%;
+    height: 7px;
+    background: black;
+    opacity: 50%;
+}
+
+.title_punto_verde{
+    background-color: lightblue;
+    text-align: center;
+    width: 100%;
+    font-size: 20pt;}
+
+
+.home{
+    background: rgb(122, 169, 185);
+    width: 50%;
+    height: 35pt;
+    float: left;
+    text-align: center;
+    padding-top: 1%;
+}
+.pie{
+    clear: both;
+}
+.pie_icons{
+    display: flex;
+    margin: 0 auto;
+    width: 20px;
+    background: rgb(122, 169, 185);
+}
